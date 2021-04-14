@@ -3,16 +3,20 @@ package hello.hellospring.service;
 import hello.hellospring.domain.Member;
 import hello.hellospring.repository.MemberResository;
 import hello.hellospring.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 /*
 * comand shift T 테스트코드 작성
+* comand e 최근목록
 *
 */
+//@Service
 public class MemberService {
     private final MemberResository memberResository;
-
+    //@Autowired
     public MemberService(MemberResository memberResository) {
         this.memberResository = memberResository;
     }
