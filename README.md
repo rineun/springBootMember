@@ -35,7 +35,7 @@
 
 
 
-실행
+[실행]
 ```
 1. ./gradlew build
 2. cd build/libs
@@ -45,7 +45,7 @@
 
 &nbsp;
 
-클린
+[클린]
 ```
 ./gradlew build clean
 ```
