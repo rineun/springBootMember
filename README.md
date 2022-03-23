@@ -1,6 +1,6 @@
 # springBootMember
 
-## 사용
+## 👩🏻‍💻 사용
 - Spring Web, Thymeleaf, jpa, h2...
 
 
